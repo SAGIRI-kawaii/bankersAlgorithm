@@ -233,7 +233,6 @@ int main(){
         for(int i=0;i<safeSequence.size();i++)  printf(" %d",safeSequence[i]);
     }else{
         printf("Unsafe!Can not allocate!\n");
-        for(int i=0;i<safeSequence.size();i++)  printf(" %d",safeSequence[i]);
     }
     return 0;
 }
